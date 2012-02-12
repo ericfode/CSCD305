@@ -1,0 +1,27 @@
+﻿Build started 2/10/2012 10:01:37 AM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Assignment 1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Assignment 1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CHugeInt.cpp main.cpp
+         main.cpp
+         CHugeInt.cpp
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\assignment 1\chugeint.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\assignment 1\chugeint.cpp(813): warning C4715: 'CHugeInt::operator/' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment 1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 1.lib" /MACHINE:X86 Debug\CHugeInt.obj
+         Debug\main.obj
+         Assignment 1.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Assignment 1.exe;#1" /manifest "Debug\Assignment 1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment 1.unsuccessfulbuild".
+         Touching "Debug\Assignment 1.lastbuildstate".
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Assignment 1\Assignment 1.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.01
