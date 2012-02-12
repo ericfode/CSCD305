@@ -1,13 +1,14 @@
-﻿Build started 2/11/2012 10:03:04 PM.
+﻿Build started 2/11/2012 10:41:57 PM.
      1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Lab 4\Lab 4.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Lab 4.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Grad.cpp Student.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Grad.cpp InheritanceTester.cpp Student.cpp
          Student.cpp
-     1>c:\users\josh\documents\visual studio 2010\projects\cscd305\lab 4\student.cpp(52): warning C4172: returning address of local variable or temporary
          Grad.cpp
          Generating Code...
+         Skipping... (no relevant changes detected)
+         InheritanceTester.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Lab 4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab 4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Lab 4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Visual Studio 2010\Projects\CSCD305\Debug\Lab 4.lib" /MACHINE:X86 Debug\Grad.obj
          Debug\InheritanceTester.obj
@@ -23,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.78
+Time Elapsed 00:00:01.99

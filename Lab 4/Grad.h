@@ -14,6 +14,7 @@ public:
 	CGrad(string s="Ima Nerd", int i=123456, int cr=12, double fee = 202.50);
 	CGrad(const CGrad & orig);
 	virtual ~CGrad();
+	CGrad & CGrad::operator=(const CGrad & rhs);
 
 	double calcFees()const;
 	void print(ostream & out)const;

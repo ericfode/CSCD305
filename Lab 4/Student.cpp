@@ -48,8 +48,11 @@ void CStudent::setCredits(int cr) {
 }//end setCredits
 	
 CStudent & CStudent::operator=(const CStudent & rhs) {
-	
+	this->credits = rhs.getCredits();
+	this->id = rhs.id;
+	this->name = rhs.name;
 
+	return *this;
 }//end = overload
 
 double CStudent::calcFees()const {

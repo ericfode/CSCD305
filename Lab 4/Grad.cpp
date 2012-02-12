@@ -30,3 +30,10 @@ void CGrad::print(ostream & out)const {
 	CStudent::print(out);
 	out<<"Fees: "<<this->calcFees()<<endl;
 }//end print
+
+CGrad & CGrad::operator=(const CGrad & rhs) {
+	CStudent::operator=(rhs);
+	this->fee = fee;
+
+	return *this;
+}//end = overload
